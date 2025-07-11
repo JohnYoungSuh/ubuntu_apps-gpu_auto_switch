@@ -1,0 +1,7 @@
+# GPU auto-switch when USB-C dock power toggles
+
+# Dock plugged in → NVIDIA
+ACTION=="change", SUBSYSTEM=="power_supply", ENV{POWER_SUPPLY_NAME}=="ucsi-source-psy-USBC000:001", ATTR{online}=="1", RUN+="/usr/local/bin/gpu-switch.sh"
+
+# Dock unplugged → Intel
+ACTION=="change", SUBSYSTEM=="power_supply", ENV{POWER_SUPPLY_NAME}=="ucsi-source-psy-USBC000:001", ATTR{online}=="0", RUN+="/usr/local/bin/gpu-switch.sh"
