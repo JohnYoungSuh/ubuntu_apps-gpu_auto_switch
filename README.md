@@ -21,3 +21,4 @@ Automatically switch GPU profiles (Intel ↔ NVIDIA) when you plug or unplug you
    ```bash
    git clone https://github.com/<your-username>/gpu-dock-auto-switch.git
    cd gpu-dock-auto-switch
+# ubuntu_apps-gpu_auto_switch
