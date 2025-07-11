@@ -1,6 +1,28 @@
 # gpu-auto-switch
 
-Automatically switch GPU profiles (Intel ↔ NVIDIA) when you plug or unplug your USB-C dock’s power source.
+Effortless Performance and Efficiency with Automatic GPU Switching
+
+Imagine your Ubuntu laptop intuitively toggling between Intel’s energy-savvy graphics when you’re unplugged and NVIDIA’s high-power GPU the moment you dock—no manual toggles, no interruptions.  Other video force to install addtion lib or code.
+
+---
+
+## Key Benefits
+
+- Intelligent power management  
+  Automatically shifts to Intel graphics to extend battery life when the dock’s power is unplugged, then switches back to NVIDIA for peak performance once you reconnect.  
+
+- Seamless Ubuntu integration  
+  Built directly into your existing Ubuntu setup—no extra tools or complex scripts needed.  
+
+- Optimized workflow  
+  Focus on your work without worrying about configuration changes; your system adapts in real time.  
+
+- Balanced performance and efficiency  
+  Enjoy long unplugged use on Intel’s lean GPU, then harness NVIDIA’s full capabilities the instant you plug in.
+
+---
+
+Experience the ideal blend of battery longevity and graphics power—all triggered by your USB-C dock’s power state.
 
 ## Features
 
